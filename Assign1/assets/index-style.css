@@ -81,12 +81,27 @@ nav ul ul li a{
 h1{
       text-align: center;
 }
-#containerIntro h3,
+/* #containerIntro h3,
 #containerIntro p {
     display: inline;
     vertical-align: top;
     font-size: 16px;
     line-height: 28px;
+} */
+.container{
+      padding: 45px;
+}
+.container table {
+      border-spacing: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 18px;
+    }
+    td{
+      vertical-align: top;
+    }
+#containerIntro img{
+      height: 100px;
+      width: 100px;
 }
 .buttons{
       text-align: center;
@@ -96,4 +111,7 @@ button{
 }
 button.a{
       text-decoration: none;
+}
+hr{
+      border: 1px solid yellow;
 }
